@@ -1,0 +1,46 @@
+# Core FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Environment and configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+supabase==2.0.3
+postgrest==0.13.0
+
+# HTTP clients
+requests==2.31.0
+httpx==0.25.2
+
+# PDF processing
+pdf2image==1.16.3
+PyPDF2==3.0.1
+
+# Image processing
+Pillow==10.1.0
+
+# Async support
+asyncio==3.4.3
+
+# Utilities
+python-dateutil==2.8.2
+
+# Optional: Error tracking
+# sentry-sdk[fastapi]==1.38.0
+
+# Optional: Caching
+# redis==5.0.1
+
+# Optional: Testing
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# pytest-mock==3.12.0
+
+# Development tools
+# black==23.12.1
+# flake8==6.1.0
+# mypy==1.7.1
